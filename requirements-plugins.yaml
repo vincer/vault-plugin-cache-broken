@@ -1,0 +1,3 @@
+- src: https://github.com/vincer/ansible-vault
+  version: 79d1adf
+  name: jhaals.ansible-vault

@@ -1,0 +1,6 @@
+---
+
+- hosts: localhost
+  tasks:
+  - debug: msg="{{ lookup('vault', 'secret/hello') }}"
+  - debug: msg="{{ lookup('vault', 'secret/hello') }}"
